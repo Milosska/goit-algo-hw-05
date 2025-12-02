@@ -1,0 +1,40 @@
+# Встановлення репозиторію
+
+1. Склонуйте репозиторій
+
+```bash
+git clone [repository-url]
+cd goit-algo-hw-04
+```
+
+2. Перейдіть у директорію проєкту та активуйте віртуальне середовище
+
+```bash
+ python -m venv .venv
+ # On Windows:
+ .venv\Scripts\activate
+ # On Unix/MacOS:
+ source .venv/bin/activate
+```
+
+3. Встановіть необхідні залежності
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Перейдіть в папку з відповідним завданням
+
+```bash
+cd task_1
+```
+
+1. Запустіть головний файл main.py
+
+```bash
+python -m main
+```
+
+# Завдання 1: Метод delete для таблиці HashTable
+
+Додайте метод `delete` для видалення пар ключ-значення таблиці `HashTable`, яка реалізована в конспекті.
